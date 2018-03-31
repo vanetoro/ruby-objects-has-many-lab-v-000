@@ -24,9 +24,7 @@ class Author
    @@post_count = @@post_count.length
   end
   
-  def author_name
-    self.name
-  end
+  
  
     
 end
