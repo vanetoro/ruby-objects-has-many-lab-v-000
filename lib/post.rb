@@ -7,7 +7,7 @@ class Post
   
   def author_name
     author.name ? author.name : nil
-    # binding.pry
+    binding.pry
   end 
   
 end
