@@ -16,6 +16,7 @@ class Author
     title = Post.new(title)
     title.author = self
     @posts << title
+    @@all << title
   end
   
   def post_count
