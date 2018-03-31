@@ -6,6 +6,9 @@ class Post
   end 
   
   def author_name
-    author_name ? author_name : nil
+    if !author_name
+      nil
+    else
+      author_name
   end
 end
