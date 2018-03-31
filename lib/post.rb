@@ -6,7 +6,7 @@ class Post
   end 
   
   def author_name
-    if author.name.instance
+    if author.name.instance_of
   end 
   
 end
