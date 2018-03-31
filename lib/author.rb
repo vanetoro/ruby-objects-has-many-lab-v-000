@@ -10,5 +10,6 @@ class Author
     @posts << name
     post.author = self
   end
+   
     
 end
