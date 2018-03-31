@@ -20,6 +20,7 @@ class Author
   end
   
   def post_count
-   
+   @@all = @@all.length
+ end
     
 end
