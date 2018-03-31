@@ -6,6 +6,7 @@ class Post
   end 
   
   def author_name
+    author.name || nil
     binding.pry
   end 
   
