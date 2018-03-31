@@ -17,7 +17,7 @@ class Artist
     song = Song.new(name)
     @songs << song
     song.name = self
-    binding.pry
+    # binding.pry
   end
   
 end
