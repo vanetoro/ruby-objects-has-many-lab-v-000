@@ -6,7 +6,7 @@ class Post
   end 
   
   def author_name
-    author.name.instance_of?(Author) ? author.name : nil
+    author.name.instance_of?(author) ? author.name : nil
   end 
   
 end
