@@ -10,5 +10,6 @@ class Post
       nil
     else
       author_name
-  end
+    end
+  end  
 end
