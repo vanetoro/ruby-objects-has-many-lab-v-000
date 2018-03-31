@@ -6,7 +6,7 @@ class Author
   end  
     
   def add_post(name)
-    name = post.new
+    name = Post.new
     @posts << name
     post.author = self
   end
